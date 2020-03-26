@@ -17,14 +17,11 @@ spring:
 
   datasource:
     #数据源基本配置
-    #username: Zjf
-    #password: zjf123456
-    #url: jdbc:mysql://127.0.0.1:3306/chatbot?useUnicode=true&characterEncoding=utf-8&autoReconnect=true
     username: Zjf
-    password: "@Zjf123456"
-    url: jdbc:mysql://192.144.236.100:3306/chatbot?useUnicode=true&characterEncoding=utf-8&useAffectedRows=true&useSSL=false&serverTimezone=Asia/Shanghai&connectTimeout=90000
-    #driver-class-name: com.mysql.jdbc.Driver
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: zjf123456
+    url: jdbc:mysql://127.0.0.1:3306/chatbot?useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+    driver-class-name: com.mysql.jdbc.Driver
+   
 
 
     #数据源其他配置
